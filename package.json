@@ -1,0 +1,67 @@
+{
+  "name": "template-react-native",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A label select component for React Native apps",
+  "keywords": [
+    "base",
+    "template",
+    "react-native",
+    "react"
+  ],
+  "author": {
+    "name": "Eduardo J. Nascimento",
+    "url": "https://github.com/Duduzera1997"
+  },
+  "bugs": {
+    "url": "https://github.com/Duduzera1997/Template-React-Native"
+  },
+  "homepage": "https://github.com/Duduzera1997/Template-React-Native",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Eduardo J. Nascimento",
+      "email": "eduardojdn1997@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "prop-types": "15.7.2",
+    "react": "16.6.3",
+    "react-native": "0.58.6",
+    "react-native-gesture-handler": "1.0.12",
+    "react-navigation": "3.0.9",
+    "react-redux": "6.0.0",
+    "reactotron-react-native": "2.1.4",
+    "reactotron-redux": "2.1.3",
+    "redux": "4.0.1",
+    "redux-multi": "0.1.12",
+    "redux-persist": "5.10.0",
+    "redux-thunk": "2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "10.0.1",
+    "babel-jest": "24.5.0",
+    "eslint": "5.6.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "4.1.0",
+    "eslint-config-react-app": "3.0.8",
+    "eslint-plugin-flowtype": "2.50.3",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-prettier": "3.0.1",
+    "eslint-plugin-react": "7.12.4",
+    "jest": "24.5.0",
+    "metro-react-native-babel-preset": "0.53.1",
+    "prettier": "1.16.4",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
